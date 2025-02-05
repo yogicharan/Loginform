@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>signup page</title>
+</head>
+<body>
+	<form action="/LoginForm/signup.jsp" method="post" >
+	 <table align="center" cellpadding="2px" cellspacing="1px" bgcolor="silver">
+		<caption><h2>Signup Form</h2></caption>
+	<tr>	
+		<td><label>user name: </label></td>
+		<td><input type="text" name="uname"  /> </td>
+	</tr>
+	<tr>
+		<td><label>Enter password: </label></td>
+		<td><input type="password" name="upwd" /> <td/>
+	</tr>	
+	<tr>
+		<td><label>gender: </label></td>
+		<td>
+		<input type="radio" value="male" name="ugender" />Male
+		<input type="radio" value="female" name="ugender" />FeMale
+		<td/>
+	</tr>
+	<tr>
+		<td><label>Enter number: </label></td>
+		<td><input type="number" name="unumber" /> <td/>
+	</tr>
+	<tr>
+		<td><input type="submit" value="signup" /><td/>
+	</tr>
+	<tr>	
+		<td><font color="blue"><a href="/LoginForm/login.html" >already have account?</a></font></td>
+	</tr>
+	</table>
+	</form>
+</body>
+</html>
